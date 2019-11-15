@@ -2,9 +2,11 @@ package baeldung.springdemo.persistence.model;
 
 
 
+import lombok.Getter;
+
 import javax.persistence.*;
 
-
+@Getter
 @Entity
 public class Book {
 
